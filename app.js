@@ -1,5 +1,4 @@
 const express = require('express');
-const serverless = require('serverless-http');
 const app = express();
 const bodyParser = require('body-parser');
 // const cors = require("cors");
@@ -48,21 +47,6 @@ const os = require("os");
 
 app.post('/upload',  async (req, res) => {
   const body = req.body;
-  
-  // try {
-  //   let result = await cloudinary.uploader.upload("public/my.json", {
-  //     use_filename: true,
-  //     unique_filename: false
-  //   })
-  //   console.log(result)
-  // } catch (ex){
-  //   console.log(ex)
-  // }
-  //
-  //
-    
-  
-  
   
   const form = formidable({multiples: false})
 
