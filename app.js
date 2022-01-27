@@ -32,9 +32,9 @@ const corsOptions = {
 
 // const multer  = require('multer')
 
-const { v2: cloudinary} = require("cloudinary");
+
 const path = require("path");
-const os = require("os");
+
 
 // const upload = multer({ dest: '/function' })
 
