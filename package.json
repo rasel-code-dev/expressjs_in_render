@@ -1,8 +1,8 @@
 {
   "name": "render-expressjs",
-  "version": "1.0.1",
-  "description": "Example of how to deploy a Express.js Netlify app.",
+  "version": "1.0.0",
   "main": "app.js",
+  "description": "Example of how to deploy a Express.js Netlify app.",
   "scripts": {
     "build": "tsc",
     "start": "node app.js",
@@ -15,8 +15,9 @@
   },
   "homepage": "https://github.com/rasel-code-dev/expressjs_in_render",
   "repository": "https://github.com/rasel-code-dev/expressjs_in_render.git",
-  "author": {
-    "name": "rasel mahmud"
+  "author":  "rasel mahmud",
+  "engines": {
+    "node": ">=14"
   }
 }
 
